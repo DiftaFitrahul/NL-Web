@@ -5,16 +5,25 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppinsLight: ["PoppinsLight"],
+        poppinsRegular: ["PoppinsRegular"],
+        poppinsMedium: ["PoppinsMedium"],
+        poppinsSemi: ["PoppinsSemi"],
+        poppinsBold: ["PoppinsBold"],
+      },
       colors: {
         'red-NL' : '#DA4949',
         'black-NL' : '#434343',
         'pink-NL' : '#FE8F75',
-        'grey-NL' : '#D9D9D9'
+        'grey-NL' : '#D9D9D9',
+        'white-NL' : "#FDFDFD"
       },
       boxShadow: {
         '3xl': '0 15px 60px  rgba(0, 0, 0, 0.5)',
         'custom': '10px 10px 15px rgba(0, 0, 0, 0.4)',
-        'custom2': '11px 11px  #FE8F75, 11px 11px 0 3px black'
+        'custom2': '11px 11px  #FE8F75, 11px 11px 0 3px black',
+        'home-card': '2.84249px 5.68498px 25.4084px rgba(0, 0, 0, 0.25)',
       },
       height: {
         '100': '25em',
@@ -29,7 +38,8 @@ module.exports = {
         '10xl': '65px',
         '180px': '180px',
         '4xl': '2rem',
-      }
+        '5xl': '151px 151px 0px 0px',
+      },
     },
   },
   plugins: [],
