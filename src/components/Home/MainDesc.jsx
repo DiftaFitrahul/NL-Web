@@ -26,7 +26,7 @@ const MainDesc = () => {
                         id={"Community"}
                         className="font-poppinsBold text-center text-red-NL text-[28px] md:text-[35px] lg:text-[40px] pt-[100px] md:pt-[120px] lg:pt-[130px] xl:pt-[150px] 2xl:pt-[161px] pb-[30px] md:pb-[40px] lg:pb-[50px] xl:pb-[70px]"
                     >
-                        Our Community
+                        Our Communities
                     </h1>
                     <div className="flex justify-center pb-20">
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[80px] md:gap-x-[100px] xl:gap-x-[150px] gap-y-[99px]">

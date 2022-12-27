@@ -241,8 +241,12 @@ const AboutPage = () => {
               {/* Community box */}
               <div>
                 <div className="flex flex-row justify-center my-10">
-                  <img src={activeLogo} alt="Logo" className=" px-14 w-[25%]" />
-                  <div className="py-10 bg-red-NL w-1"> </div>
+                  <img 
+                    src={activeLogo} 
+                    alt="Logo" 
+                    className=" px-14 w-[25%]" 
+                  />
+                  <div className="py-10 bg-red-NL w-1"></div>
                   <div className="font-poppinsMedium py-5 px-14 inline break-word text-white text-3xl">
                     Night Login {activeFirstnameLogo} <br /> {activeLastnameLogo}{" "}
                     Community
@@ -253,14 +257,29 @@ const AboutPage = () => {
                   <BoxProfile title={activeViceTitle} name={activeViceName} />
                 </div>
               </div>
-              <div className="flex flex-row justify-center bg-pink-NL mt-32 rounded-3xl md:rounded-3.5xl xl:rounded-5xl py-28">
-                <div className="py-44 mr-16">
-                  <h2 className="font-poppinsBold text-white text-[2.5rem] text-start">Do you want to be a part of<br/> Night Login?</h2>
-                  <p className="font-poppinsMedium text-white text-[2rem] text-start pt-4">Wait for further information!</p>
+              <div className="flex flex-col xl:flex-row justify-center bg-pink-NL mt-32 rounded-3xl md:rounded-3.5xl xl:rounded-5xl py-28 px-7 smallest:px-12 sm:px-14 md:px-20 lg:px-[134px]">
+                <div className="w-full flex flex-col pb-[50px] sm:pb-[60px] md:pb-[70px] xl:pb-[70px] 2xl:pb-[59px] xl:mr-16 justify-center">
+                  <h2 className="font-poppinsBold text-white text-[25px] sm:text-[28px] md:text-[30px] lg:text-[31px] xl:text-start">
+                    Do you want to be a part of
+                    Night Login?
+                  </h2>
+                  <p className="font-poppinsMedium text-white text-[25px] sm:text-[28px] md:text-[30px] lg:text-[28px] xl:text-start pt-4">
+                    Wait for further information!
+                  </p>
                 </div>
-                <img src={Drawkit} alt="animationPic" className="w-[42%]" loading="lazy" />
+                <img 
+                  src={Drawkit} 
+                  alt="Illustrasi" 
+                  className="mx-auto w-3/5 lg:w-1/2 2xl:w-[42%]" 
+                  loading="lazy" 
+                />
               </div>
-              <img src={HappyBunch} alt="" className="mt-[-17rem] w-64" loading="lazy" />
+              <img 
+                src={HappyBunch} 
+                alt="Dekorasi" 
+                className="-mt-[170px] lg:-mt-[190px] xl:-mt-[210px] 2xl:mt-[-17rem] w-40 lg:w-44 xl:w-48 2xl:w-64" 
+                loading="lazy" 
+              />
             </div>
           </div>
         </div>
